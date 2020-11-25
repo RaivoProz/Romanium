@@ -1,0 +1,70 @@
+.title__dividing {
+  background-color: #007bff;
+}
+
+.brand__font {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
+}
+
+.text_font {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 2;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.bigger-size-font {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.contnal {
+  text-align: center;
+  vertical-align: middle;
+  padding: 5% 0;
+  margin: 0;
+}
+
+.imgnal {
+  text-align: center;
+  vertical-align: middle;
+  padding: 5% 0;
+  margin: 0;
+}
+
+.buttonal {
+  text-align: center;
+  vertical-align: middle;
+  padding: 5% 0;
+  margin: 0;
+}
+
+.xl {
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  line-height: 2;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.transform {
+  transform: rotate(35deg);
+}
+
+.lh {
+  line-height: 1.5;
+}
+
+.icon {
+  color: #343a40;
+}
+
+.icon:hover {
+  color: #000;
+}
