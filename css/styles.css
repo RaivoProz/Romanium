@@ -1,10 +1,7 @@
-.title__dividing {
-  background-color: #007bff;
-}
-
 .brand__font {
+  color: #007bff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 150%;
+  font-size: 140%;
 }
 
 .text_font {
@@ -53,8 +50,21 @@
   margin: 1rem;
 }
 
-.transform {
-  transform: rotate(35deg);
+.up-btn {
+  opacity: 0.8;
+  float: right;
+}
+
+.up-btn:hover {
+  opacity: 1;
+}
+
+.social-icn {
+  opacity: 0.9;
+}
+
+.social-icn:hover {
+  opacity: 1;
 }
 
 .lh {
@@ -67,4 +77,54 @@
 
 .icon:hover {
   color: #000;
+}
+
+.dbtnl {
+  text-align: left;
+  padding-left: 0;
+}
+
+.srch {
+  margin: 0 auto;
+}
+
+.testimon {
+  text-align: center;
+  vertical-align: middle;
+  padding: 5% 5%;
+  margin: 0;
+}
+
+.partners {
+  width: 15%;
+  margin: 10% 2% 5% 2%;
+  padding: 1%;
+}
+
+.carosimage {
+  width: 60%;
+}
+
+.service-margin {
+  margin: 300px 0 0 0;
+}
+
+.text-carousel-caption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 120%;
+}
+
+.carousel-item-pad {
+  padding: 5% 5%;
+}
+
+.carousel-indicators-pad {
+  padding-top: 7%;
+}
+
+.footer-pad {
+  text-align: center;
+  vertical-align: middle;
+  padding: 1% 0;
+  margin: 0;
 }
