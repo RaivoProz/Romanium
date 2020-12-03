@@ -1,3 +1,4 @@
+/* Fonts */
 .brand__font {
   color: #007bff;
   font-family: 'Montserrat', sans-serif;
@@ -11,37 +12,61 @@
   text-align: center;
 }
 
-.container-fluid {
-  padding: 0;
-  margin: 0;
-}
-
 .bigger-size-font {
   font-size: 18px;
   font-weight: normal;
 }
 
-.contnal {
+.buy-font {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.lh {
+  line-height: 1.5;
+}
+
+.text_font_buy {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Container */
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.contnal, .imgal, .buttonal,
+.testimon, .footer-pad {
   text-align: center;
   vertical-align: middle;
+}
+
+.contnal, .imgal, .buttonal {
   padding: 5% 0;
   margin: 0;
 }
 
-.imgnal {
-  text-align: center;
-  vertical-align: middle;
-  padding: 5% 0;
+.testimon {
+  padding: 5% 5%;
   margin: 0;
 }
 
-.buttonal {
-  text-align: center;
-  vertical-align: middle;
-  padding: 5% 0;
+.partners {
+  width: 15%;
+  margin: 10% 2% 5% 2%;
+  padding: 1%;
+}
+
+.footer-pad {
+  padding: 1% 0;
   margin: 0;
 }
 
+/* Buttons */
 .xl {
   padding: 1rem 3rem;
   font-size: 1.5rem;
@@ -59,16 +84,30 @@
   opacity: 1;
 }
 
+.dbtnl {
+  text-align: left;
+  padding-left: 0;
+}
+
+.ml {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.4rem;
+  margin: 0.5rem;
+}
+
+.srch {
+  margin: 0 auto;
+}
+
+/* Img / icon */
 .social-icn {
   opacity: 0.9;
 }
 
 .social-icn:hover {
   opacity: 1;
-}
-
-.lh {
-  line-height: 1.5;
 }
 
 .icon {
@@ -79,28 +118,7 @@
   color: #000;
 }
 
-.dbtnl {
-  text-align: left;
-  padding-left: 0;
-}
-
-.srch {
-  margin: 0 auto;
-}
-
-.testimon {
-  text-align: center;
-  vertical-align: middle;
-  padding: 5% 5%;
-  margin: 0;
-}
-
-.partners {
-  width: 15%;
-  margin: 10% 2% 5% 2%;
-  padding: 1%;
-}
-
+/* Carousel*/
 .carosimage {
   width: 60%;
 }
@@ -122,9 +140,28 @@
   padding-top: 7%;
 }
 
-.footer-pad {
-  text-align: center;
-  vertical-align: middle;
-  padding: 1% 0;
-  margin: 0;
+/*Frames*/
+.privacy-frame {
+  padding: 5px;
+  padding-left: 1rem;
+  margin: 1rem 3rem;
+  width: 80%;
+  height: 500px;
+}
+
+/*Radio button*/
+.custom-control-input-custom:checked {
+  color: #fff;
+  border-color: #fff;
+  background-color: #fff;
+}
+
+/*Contact forms*/
+.contact-hr {
+  width: 80%;
+}
+
+/* Card */
+.card-img-resp {
+  width: 70%;
 }
